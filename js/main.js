@@ -33,14 +33,12 @@ $(window).scroll(function(){
         $(".header__top").css("padding-bottom","0");
         $(".header__top").css("box-shadow","0 0 5px black");
         $(".header__top-inner").css("align-items","center");
-        $(".nav").css("box-shadow","0 0 5px black");
 
        } else if (scrollBottom  > 120) {
         $(".header__top").css("background","transparent");
         $(".header__top").css("padding-top","35px");
         $(".header__top").css("padding-bottom","40px");
         $(".header__top").css("box-shadow","0 0 0 black");
-        $(".nav").css("box-shadow","0 0 5px black");
       }
     });
 
